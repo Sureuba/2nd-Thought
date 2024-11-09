@@ -1,0 +1,22 @@
+# Dependency directories
+node_modules/
+.expo/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+ios/Pods/
+android/.gradle/
+android/app/build/
+*.apk
+
+# Miscellaneous
+.DS_Store
+*.lock
