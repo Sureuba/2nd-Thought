@@ -1,9 +1,29 @@
-// You can explore the built-in icon families and icons on the web at https://icons.expo.fyi/
+// // components/navigation/TabBarIcon.tsx
+// import React from 'react';
+// import { Ionicons } from '@expo/vector-icons';
 
-import Ionicons from '@expo/vector-icons/Ionicons';
-import { type IconProps } from '@expo/vector-icons/build/createIconSet';
-import { type ComponentProps } from 'react';
+// type IoniconName = keyof typeof Ionicons.glyphMap;
 
-export function TabBarIcon({ style, ...rest }: IconProps<ComponentProps<typeof Ionicons>['name']>) {
-  return <Ionicons size={28} style={[{ marginBottom: -3 }, style]} {...rest} />;
+// interface TabBarIconProps {
+//   name: IoniconName;
+//   color: string;
+// }
+
+// export const TabBarIcon: React.FC<TabBarIconProps> = ({ name, color }) => {
+//   return <Ionicons name={name} size={24} color={color} />;
+// };
+
+// components/navigation/TabBarIcon.tsx
+import React from 'react';
+import { Ionicons } from '@expo/vector-icons';
+
+type IoniconName = keyof typeof Ionicons.glyphMap;
+
+interface TabBarIconProps {
+  name: IoniconName;
+  color: string;
 }
+
+export const TabBarIcon: React.FC<TabBarIconProps> = ({ name, color }) => {
+  return <Ionicons name={name} size={24} color={color} />;
+};
