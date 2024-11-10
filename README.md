@@ -3,8 +3,8 @@
 
 Using the power of technology and personal empowerment, Recovery Path offers a comprehensive and personalized approach to rehabilitation. Our app combines motivational messaging, gamification, and tailored advice to help users regain control over their lives.
 
-Prompt chosen: How can technology be leveraged to promote peace and inclusion in society?
+**Prompt chosen**: How can technology be leveraged to promote peace and inclusion in society?
 
-Problem Statement: Drug addicts often face many issues 
+**Problem Statement**: Drug addicts often face many issues 
 
-How will this solution address this problem: Help you rehab your addiction
+**How will this solution address this problem**: Help you rehab your addiction
