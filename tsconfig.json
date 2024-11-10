@@ -1,11 +1,37 @@
+// {
+//   "extends": "expo/tsconfig.base",
+//   "compilerOptions": {
+//     "strict": true,
+//     "baseUrl": ".", // Ensure baseUrl is set to the project root
+//     "paths": {
+//       "@/*": ["./*"],
+//       "@/components/*": ["./components/*"],
+//       "@/hooks/*": ["./hooks/*"],
+//       "@/constants/*": ["./constants/*"],
+//       "@/assets/*": ["./assets/*"]
+//       // Add other aliases as needed
+//     }
+//   },
+//   "include": [
+//     "**/*.ts",
+//     "**/*.tsx",
+//     ".expo/types/**/*.ts",
+//     "expo-env.d.ts"
+//   ]
+// }
+
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
+    "baseUrl": ".", // Ensures paths are resolved from the project root
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"], // Maps '@' to the project root
+      "@/components/*": ["./components/*"],
+      "@/hooks/*": ["./hooks/*"],
+      "@/constants/*": ["./constants/*"],
+      "@/assets/*": ["./assets/*"]
+      // Add other aliases if needed
     }
   },
   "include": [
