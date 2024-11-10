@@ -1,5 +1,5 @@
 # Hack-the-Change
-###Introducing Recovery Path—a life-changing app designed to support individuals battling addiction, with a specialized focus on gambling.
+### Introducing Recovery Path—a life-changing app designed to support individuals battling addiction, with a specialized focus on gambling.
 
 Using the power of technology and personal empowerment, Recovery Path offers a comprehensive and personalized approach to rehabilitation. Our app combines motivational messaging, gamification, and tailored advice to help users regain control over their lives.
 
