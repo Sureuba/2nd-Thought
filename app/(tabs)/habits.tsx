@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, Button, StyleSheet, ScrollView } from 'react-native';
+import { View, Text, TextInput, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 
 export default function HabitsPage() {
-  const [answers, setAnswers] = useState({
+  const [answers, setAnswers] = useState<Record<string, string>>({
     addiction: '',
     habits: '',
     triggers: '',
@@ -57,7 +57,9 @@ export default function HabitsPage() {
           />
         </View>
       ))}
-      <Button title="Submit" onPress={handleSubmit} style={styles.submitButton} />
+      <TouchableOpacity style={styles.submitButton} onPress={handleSubmit}>
+        <Text style={styles.submitButtonText}>Submit</Text>
+      </TouchableOpacity>
     </ScrollView>
   );
 }
@@ -83,5 +85,15 @@ const styles = StyleSheet.create({
   },
   submitButton: {
     marginTop: 20,
+    backgroundColor: '#4CAF50',
+    padding: 15,
+    alignItems: 'center',
+    borderRadius: 5,
+  },
+  submitButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
   },
 });
+//end of file
