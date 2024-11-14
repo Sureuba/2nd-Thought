@@ -115,4 +115,4 @@ const styles = StyleSheet.create({
     resizeMode: 'contain',
     marginVertical: 10,
   },
-});
+});  //end of file
